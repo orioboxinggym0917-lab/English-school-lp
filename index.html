@@ -9,13 +9,13 @@
 <body>
 
     <!-- ① ヘッダー（固定） -->
-    <header class="header">
+    <header class="header" id="header">
         <div class="header-inner">
             <div class="logo">
                 <span class="logo-mark">🌍</span>
                 <span class="logo-text">SPEAK UP</span>
             </div>
-            <nav class="nav">
+            <nav class="nav" id="nav">
                 <ul>
                     <li><a href="#features">特徴</a></li>
                     <li><a href="#course">コース</a></li>
@@ -24,6 +24,12 @@
                 </ul>
             </nav>
             <a href="#contact" class="btn-header">無料体験を予約</a>
+
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
     </header>
 
@@ -302,5 +308,6 @@
         </div>
     </footer>
 
+    <script src="script.js"></script>
 </body>
 </html>
